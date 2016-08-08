@@ -12,7 +12,7 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
     {
         return req.CreateResponse(HttpStatusCode.OK, new
         {
-            text = $"Good mooooorning Vietnam!"
+            text = $"A esta hora estava bem era na caminha como o Marco Fortes!"
         });
     }
 
